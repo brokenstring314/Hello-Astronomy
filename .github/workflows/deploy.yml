@@ -27,7 +27,7 @@ jobs:
           git fetch origin gh-pages || echo "No gh-pages branch, skipping fetch"
 
       - name: Copy built site to docs
-        run: mv site/* docs/  # 直接将内容移动，而不是删除 docs 目录
+        run: rsync -av --delete site/ docs/  # 使用 rsync 将 site 目录的内容同步到 docs 目录
 
       - name: Commit and Push to gh-pages
         env:
