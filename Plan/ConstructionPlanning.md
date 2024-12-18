@@ -89,16 +89,12 @@
 
 ## 阶段 3：配置与部署  
 
-打开 GitHub 仓库 → 进入 Settings(所有者)。
+1. 打开 GitHub 仓库 → 进入 Settings(所有者)。
+   在左侧菜单找到 Pages。
+   选择：Branch：选择 gh-pages/ root
+   点击 Save 保存设置。
 
-仓库名改为 Hello-Astronomy
 
-在左侧菜单找到 Pages。
-
-选择：Branch：选择 main/ docs
-点击 Save 保存设置。
-
-部署自定义域名
 
 
 接下来的步骤，缓步进行
