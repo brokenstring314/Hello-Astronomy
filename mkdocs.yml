@@ -20,6 +20,20 @@ theme:
         icon: material/theme-light-dark
         name: 旭日东升
 
+extra:
+  giscus:
+    repository: 'Xia0-0/Xia0-0.github.io'
+    repository-id: 'R_kgDONfN6ZA'  # 替换为你实际的仓库 ID
+    category: 'General'  # 选择你设置的评论分类
+    category-id: 'DIC_kwDONfN6ZM4ClVK3'  # 替换为你实际的分类 ID
+    mapping: 'pathname'  # 设置评论区定位方式
+    reactions-enabled: '1'  # 启用点赞表情
+    theme: 'dark'  # 设置主题，可以选择 light 或 dark
+    lang: 'zh-CN'  # 设置语言，修改为中文
+    term: 'pathname'  # 通常选择 'pathname'
+
+
+
 extra_css:
   - assets/css/index.css
 
