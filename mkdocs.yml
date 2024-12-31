@@ -20,6 +20,8 @@ theme:
         icon: material/theme-light-dark
         name: 旭日东升
 
+extra:
+  site_url: hello-astronomy.com  # 自定义域名
 
 extra_css:
   - assets/css/index.css
