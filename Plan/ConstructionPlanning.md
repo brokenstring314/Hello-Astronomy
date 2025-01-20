@@ -1,3 +1,6 @@
+---
+comments: true
+---
 # Hello-Astronomy，建设流程🌌✨
 ---
 
