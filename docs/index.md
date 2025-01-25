@@ -1,10 +1,10 @@
 ---
 comments: true
 ---
-![alt 属性文本](assets/images/starry_sky.png)
+![alt 属性文本](overrides/assets/images/starry_sky.png)
 
 
 
-HELLO WORLD!
+Hello Word!
 
-HELLO ASTRONOMY! 
+HEllo Astronomy! 

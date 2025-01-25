@@ -1,31 +1,43 @@
-site_name: Hello-Astronomy  
-site_description: 探索有趣的旅程
-site_author: Xia0-0
+# 项目信息 / Project information
+site_name: Hello-Astronomy  # 网站名称
+site_description: 探索有趣的旅程  # 网站描述
+site_author: Xia0-0  # 作者署名
 
+# 仓库信息 / Repository
+repo_url: https://github.com/Xia0-0/Hello-Astronomy
+repo_name: GitHub
+
+# 自定义配置部分 / Configuration
 theme:
   name: material
-  custom_dir: docs/overrides  #主要是这一行
-  favicon: assets/images/favicon1.ico
-  logo: assets/images/logo.png
-  palette:
-    - scheme: slate
-      primary: black
-      accent: teal
-      toggle:
-        icon: material/theme-light-dark
-        name: 长夜漫漫
+  custom_dir: docs/overrides  # 自定义主题目录，用于覆盖默认样式
+  language: zh
+  favicon: assets/images/favicon.ico  # 网站图标
+  logo: assets/images/logo.png  # 网站 Logo
+
+  palette:  # 调色板配置
+    - scheme: slate  # 深色模式
+      primary: black  # 主色调
+      accent: teal  # 强调色
+      toggle:  # 深浅模式切换按钮
+        icon: material/weather-night  # 夜空主题图标
+        name: 长夜漫漫  # 提示文字
     - scheme: light
       primary: white
       accent: teal
       toggle:
-        icon: material/theme-light-dark
+        icon: material/weather-sunny
         name: 旭日东升
 
 extra:
-  site_url: hello-astronomy.com  
-  social:
+  site_url: https://hello-astronomy.com  # 网站 URL
+  social:  # 社交链接配置
+    - icon: fontawesome/brands/twitter  # Twitter 图标
+      link: https://x.com/Xia0_0_G  # Twitter 链接
+    - icon: xiaohongshu # 自定义小红书图标
+      link: https://xiaohongshu.com/user/profile/65ccd77a0000000005033d02
     - icon: fontawesome/brands/github
-      link: https://github.com/Xia0-0
+      link: https://github.com/Hello-Astronomy
 
 
 nav:
