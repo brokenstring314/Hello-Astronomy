@@ -37,7 +37,7 @@ extra:
     - icon: xiaohongshu # 自定义小红书图标
       link: https://xiaohongshu.com/user/profile/65ccd77a0000000005033d02
     - icon: fontawesome/brands/github
-      link: https://github.com/Hello-Astronomy
+      link: https://github.com/Xia0-0/Hello-Astronomy
 
 
 nav:
