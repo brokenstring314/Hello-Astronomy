@@ -29,6 +29,22 @@ theme:
         icon: material/weather-sunny
         name: 旭日东升
 
+extra_javascript:
+  - javascripts/mathjax.js # 自定义js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true 
+
 extra:
   site_url: https://hello-astronomy.com  # 网站 URL
   social:  # 社交链接配置
